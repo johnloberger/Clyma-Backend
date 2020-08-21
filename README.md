@@ -8,4 +8,10 @@ Explore the global map for air quality index or ClimateScore. Dig into current n
 
 Installation:
 
-Clone this repo and the corresponding back-end repo In your terminal, go to the 'MyClimate-Frontend' directory and run 'npm i && npm start'
+Clone this repo and the corresponding back-end repo
+In your terminal, go to the 'MyClimate-Backend' directory and run 'bundle install'
+Run 'rails db:create'
+Run 'rails db:migrate'
+Run 'rails db:seed'
+Run 'rails s -p 3001' to start the back-end server
+In your terminal, go to the 'Listr-Frontend' directory and run 'npm i && npm start'
