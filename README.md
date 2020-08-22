@@ -1,24 +1,17 @@
-# README
+Welcome to MyClimate! This React front-end, Ruby on Rails back-end web application is designed to allow individuals to view real-time data pertaining to air quality index and ClimateScore.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Technologies included: Google Maps API Google Geocoding Google Places Autofill World Air Quality Index API ClimateScore API NewsAPI Gender
 
-Things you may want to cover:
+MyClimate utilizes a menu NavBar that allows users to accomplish the following:
 
-* Ruby version
+Explore the global map for air quality index or ClimateScore. Dig into current news pertaining to climate change and biodiversity.
 
-* System dependencies
+Installation:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Clone this repo and the corresponding back-end repo
+In your terminal, go to the 'MyClimate-Backend' directory and run 'bundle install'
+Run 'rails db:create'
+Run 'rails db:migrate'
+Run 'rails db:seed'
+Run 'rails s -p 3001' to start the back-end server
+In your terminal, go to the 'Listr-Frontend' directory and run 'npm i && npm start'
