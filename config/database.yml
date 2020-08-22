@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: ClyMate_production
-  username: ClyMate
-  password: <%= ENV['CLYMATE_DATABASE_PASSWORD'] %>
+  database: <%= ENV['DATABASE_URL'] %>
+  # username: ClyMate
+  # password: <%= ENV['CLYMATE_DATABASE_PASSWORD'] %>
